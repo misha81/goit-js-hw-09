@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form id="form">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="age">Вік:</label>
+            <input type="number" id="age" min="0" name="age" required>
+
+            <button type="button" id="btn">Зберегти</button>
+        </form>
+
+        <div id="info"></div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

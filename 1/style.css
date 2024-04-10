@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aa9d9d;
+}

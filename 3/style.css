@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+li a {
+    text-decoration: none;
+    color: red;
+}
